@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <RadioGroup
+        android:id="@+id/att_rd_grp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btn_generate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/att_rd_achat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Faire des achats" />
+
+        <RadioButton
+            android:id="@+id/att_rd_sport"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sport / Balade / Animaux" />
+
+        <RadioButton
+            android:id="@+id/att_rd_sante"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santé" />
+
+        <RadioButton
+            android:id="@+id/att_rd_travail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aller retour travail" />
+
+        <RadioButton
+            android:id="@+id/att_rd_visite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visite chez un proche dans le besoin" />
+
+        <RadioButton
+            android:id="@+id/att_rd_enfants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Récupérer enfants à l'école" />
+
+        <RadioButton
+            android:id="@+id/att_rd_handi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Déplacement personne en situatio de handicap" />
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text='Choisissez un motif puis cliquer sur "Générer une attestation"'
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/btn_generate"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <WebView
+        android:id="@+id/attest_web"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/att_rd_grp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Attest Sortie</string>
+    <string name="title_home">Attestation</string>
+    <string name="title_dashboard">Paramètres</string>
+</resources>
