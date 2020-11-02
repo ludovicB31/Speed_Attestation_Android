@@ -1,3 +1,5 @@
+## Version
+[![Version](https://badge.fury.io/gh/tterb%2FHyde.svg)](https://badge.fury.io/gh/tterb%2FHyde)
 # Speed Attestation Android
 Générateur d'attestation officielle rapide pour le confinement de novembre 2020.
 Renseignez les informations une seule fois. L'attestation est générée avec la date et l'heure du momment où vous cliquez.
