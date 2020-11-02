@@ -195,7 +195,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="50dp"
             android:layout_marginRight="15dp"
-            android:text="Les données renseignées ci dessus sont uniquement stockés sur le téléphone et uniquement accessible par cette application. Elles seront  toutefois utilisés pour le remplissage automatiques des champs du site du gouvernement destiné à la génération des attestations de déplacement."
+            android:text="Les informations ci dessus sont uniquement stockées sur le téléphone et uniquement accessible par cette application. Elles seront  toutefois utilisées pour le remplissage automatique des champs du site du gouvernement destiné à la génération des attestations de déplacement."
             android:textColor="#E4C1F6" />
 
     </LinearLayout>
