@@ -66,7 +66,7 @@ public class WebAppInterface {
     private void convertBase64StringToPdfAndStoreIt(String base64PDf) throws IOException {
 
         SimpleDateFormat sdfr = new SimpleDateFormat("dd_MM_yyyy");
-        SimpleDateFormat shfr = new SimpleDateFormat("HH_MM_SS");
+        SimpleDateFormat shfr = new SimpleDateFormat("HH_mm_ss");
         Date today=new Date();
         String today_string_format=sdfr.format(today);
         String now_hour_format=shfr.format(today);

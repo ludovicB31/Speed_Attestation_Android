@@ -196,7 +196,7 @@ public class HomeFragment extends Fragment {
         String city=myshared.getString("ville","inconnu");
         String cp=myshared.getString("cp","00000");
         SimpleDateFormat sdfr = new SimpleDateFormat("yyyy-MM-dd");
-        SimpleDateFormat shfr = new SimpleDateFormat("HH:MM");
+        SimpleDateFormat shfr = new SimpleDateFormat("HH:mm");
         Date today=new Date();
         String today_string_format=sdfr.format(today);
         System.out.println(today_string_format);
