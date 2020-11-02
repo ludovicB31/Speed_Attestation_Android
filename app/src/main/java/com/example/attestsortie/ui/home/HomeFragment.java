@@ -169,6 +169,12 @@ public class HomeFragment extends Fragment {
                         }
                     }
                 }
+                else{
+                    //on notifie
+                    Toast pasOkToats=Toast.makeText(getContext(), "Remplissez vos informations dans les paramètres !", Toast.LENGTH_SHORT);
+                    pasOkToats.getView().setBackgroundColor(Color.RED);
+                    pasOkToats.show();
+                }
 
             }
         });
